@@ -12,4 +12,4 @@ jobs:
       # Run Spectral
       - uses: stoplightio/spectral-action@latest
         with:
-          file_glob: 'doc/api/*.yaml'
+          file_glob: 'doc/api/*.json'
