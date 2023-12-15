@@ -1,6 +1,6 @@
-on:
-  - pull_request
-  - workflow_dispatch
+name: Lint Open API Spec
+run-name: API Lint
+on: [pull_request, workflow_dispatch]
 
 jobs:
   build:
