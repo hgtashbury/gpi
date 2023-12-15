@@ -1,5 +1,5 @@
-name: Lint Open API Spec
-run-name: API Lint
+name: Lint Open API Spec Action
+run-name: API Lint Run
 on: [pull_request, workflow_dispatch]
 
 jobs:
